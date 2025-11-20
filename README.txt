@@ -1,5 +1,5 @@
 ╔═══════════════════════════════════════════════════════════════════════════════╗
-║                    GRAND MAÎTRE AMAYON - SITE WEB STATIQUE                    ║
+║                      MÉDIUM AMAYON - SITE WEB STATIQUE                        ║
 ║                         Instructions de Déploiement                           ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 
@@ -14,7 +14,7 @@ Ce site web statique est composé des fichiers suivants:
 ✓ assets/             - Dossier contenant les images
   ├── prompts.txt     - Prompts détaillés pour générer les images finales
   ├── hero.jpg        - Image de fond section hero (PLACEHOLDER)
-  ├── amayon.jpg      - Portrait du Maître Amayon (PLACEHOLDER)
+  ├── amayon.jpg      - Portrait de Médium Amayon (PLACEHOLDER)
   ├── symbols-love-money-protection.jpg - Image services (PLACEHOLDER)
   ├── client-1.jpg à client-10.jpg - Avatars témoignages (PLACEHOLDERS)
 ✓ README.txt          - Ce fichier d'instructions

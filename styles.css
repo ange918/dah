@@ -105,6 +105,12 @@ a {
     animation: fadeIn 1s ease-out 1.2s forwards;
 }
 
+/* Animation fade-in pour les images générées */
+.fade-in-img {
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
 /* ============================================
    Container & Layout
    ============================================ */
@@ -134,10 +140,28 @@ a {
     gap: 15px;
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--color-gold);
+}
+
+.header-astrology-img {
+    height: 50px;
+    width: auto;
+    opacity: 0.85;
+    transition: var(--transition-smooth);
+}
+
+.header-astrology-img:hover {
+    opacity: 1;
+    transform: scale(1.05);
 }
 
 /* ============================================
@@ -200,7 +224,7 @@ a {
 .hero {
     position: relative;
     background: linear-gradient(135deg, var(--color-footer-navy) 0%, #1a3a6e 100%);
-    background-image: url('assets/hero.jpg');
+    background-image: url('assets/hero.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -405,6 +429,15 @@ section {
     border-color: var(--color-gold);
     transform: translateY(-5px);
     box-shadow: var(--shadow-hover);
+}
+
+.service-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .service-icon {

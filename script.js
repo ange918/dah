@@ -1,5 +1,5 @@
 // ============================================
-// Grand Maître Amayon - Script JavaScript
+// Médium Amayon - Script JavaScript
 // ============================================
 
 // Gestion du bouton WhatsApp sticky (apparition au scroll)
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function validateWhatsAppIntent(message) {
     // Cette fonction peut être utilisée pour ajouter une confirmation
     // avant d'ouvrir WhatsApp si vous le souhaitez plus tard
-    return confirm('Vous allez être redirigé vers WhatsApp pour contacter Maître Amayon. Continuer ?');
+    return confirm('Vous allez être redirigé vers WhatsApp pour contacter Médium Amayon. Continuer ?');
 }
 
 // Animation au scroll pour les sections (fade-in progressif)
@@ -202,6 +202,6 @@ window.addEventListener('load', function() {
 });
 
 // Message de bienvenue dans la console (pour les développeurs curieux)
-console.log('%c✨ Bienvenue sur le site de Maître Amayon ✨', 'font-size: 20px; font-weight: bold; color: #D4AF37;');
+console.log('%c✨ Bienvenue sur le site de Médium Amayon ✨', 'font-size: 20px; font-weight: bold; color: #D4AF37;');
 console.log('%cSite web développé avec soin | Version 1.0', 'font-size: 12px; color: #666;');
 console.log('%cTracking des événements activé pour améliorer votre expérience', 'font-size: 11px; color: #999; font-style: italic;');

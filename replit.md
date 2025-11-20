@@ -1,8 +1,8 @@
-# Grand Maître Amayon - Site Web Statique
+# Médium Amayon - Site Web Statique
 
 ## Vue d'ensemble
 
-Site web statique et responsive pour le médium européen Grand Maître Amayon, optimisé pour convertir les visiteurs en consultations WhatsApp (+33 7 80 78 26 81).
+Site web statique et responsive pour le médium européen Médium Amayon, optimisé pour convertir les visiteurs en consultations WhatsApp (+33 7 80 78 26 81).
 
 **Type de projet:** Site web statique (HTML/CSS/JavaScript vanilla)
 **Objectif principal:** Maximiser les conversions WhatsApp via un design persuasif et mobile-first
@@ -18,7 +18,7 @@ Site web statique et responsive pour le médium européen Grand Maître Amayon, 
 ├── assets/                 # Dossier des ressources
 │   ├── prompts.txt         # Prompts détaillés pour génération d'images 4K
 │   ├── hero.jpg            # Image de fond hero (PLACEHOLDER)
-│   ├── amayon.jpg          # Portrait Maître Amayon (PLACEHOLDER)
+│   ├── amayon.jpg          # Portrait Médium Amayon (PLACEHOLDER)
 │   ├── symbols-love-money-protection.jpg (PLACEHOLDER)
 │   └── client-1.jpg à client-10.jpg (PLACEHOLDERS)
 ├── README.txt              # Instructions de déploiement complètes
@@ -43,7 +43,7 @@ Site web statique et responsive pour le médium européen Grand Maître Amayon, 
 ## Sections du Site
 
 1. **Hero Section** - Accroche émotionnelle + CTA principal WhatsApp
-2. **À Propos** - Histoire et crédibilité du Maître Amayon
+2. **À Propos** - Histoire et crédibilité de Médium Amayon
 3. **Pourquoi Choisir** - 5 preuves concrètes (expérience, confidentialité, etc.)
 4. **Services** - 4 spécialités (Amour, Argent, Protection, Tarot) avec CTAs
 5. **Comment ça marche** - 4 étapes claires du processus
