@@ -1,6 +1,6 @@
 ╔═══════════════════════════════════════════════════════════════════════════════╗
 ║                   PROMPTS POUR GÉNÉRATION D'IMAGES PHOTORÉALISTES             ║
-║                        Site Web Grand Maître Amayon                           ║
+║                          Site Web Médium Amayon                               ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 
 INSTRUCTIONS GÉNÉRALES:
@@ -32,7 +32,7 @@ ALTERNATIVES:
 ═══════════════════════════════════════════════════════════════════════════════
 
 📁 FICHIER: amayon.jpg
-🎯 USAGE: Portrait du Maître Amayon pour la section "À Propos"
+🎯 USAGE: Portrait de Médium Amayon pour la section "À Propos"
 📐 DIMENSIONS RECOMMANDÉES: 800x800px (1:1) carré
 
 PROMPT:

@@ -11,12 +11,12 @@ Ce site web statique est composé des fichiers suivants:
 ✓ index.html          - Page HTML unique complète avec toutes les sections
 ✓ styles.css          - Feuille de styles CSS avec palette personnalisée
 ✓ script.js           - JavaScript pour interactions et tracking
-✓ assets/             - Dossier contenant les images
-  ├── prompts.txt     - Prompts détaillés pour générer les images finales
-  ├── hero.jpg        - Image de fond section hero (PLACEHOLDER)
-  ├── amayon.jpg      - Portrait de Médium Amayon (PLACEHOLDER)
-  ├── symbols-love-money-protection.jpg - Image services (PLACEHOLDER)
-  ├── client-1.jpg à client-10.jpg - Avatars témoignages (PLACEHOLDERS)
+✓ assets/             - Dossier contenant les images AI générées
+  ├── prompts.txt          - Prompts utilisés pour la génération d'images
+  ├── hero.png             - Image cosmos mystique (fond section hero) ✓ INTÉGRÉE
+  ├── header-astrology.png - Image symboles astrologiques (header) ✓ INTÉGRÉE
+  ├── client-1.png à client-10.png - 10 avatars clients photoréalistes ✓ INTÉGRÉS
+  ├── service-*.png        - 4 illustrations services (disponibles, emojis utilisés)
 ✓ README.txt          - Ce fichier d'instructions
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -91,32 +91,24 @@ OU via l'interface web:
 
 ═══════════════════════════════════════════════════════════════════════════════
 
-🖼️ REMPLACEMENT DES IMAGES PLACEHOLDER
+🖼️ IMAGES AI GÉNÉRÉES
 ═══════════════════════════════════════════════════════════════════════════════
 
-IMPORTANT: Les fichiers images actuels dans assets/ sont des PLACEHOLDERS.
-Vous DEVEZ les remplacer par de vraies images avant la mise en production.
+✓ STATUT: Les images principales ont été générées avec DALL-E 3 et sont 
+            intégrées dans le site.
 
-ÉTAPES:
-1. Ouvrir le fichier assets/prompts.txt
-2. Utiliser les prompts fournis pour générer les images photoréalistes 4K
-3. Outils recommandés:
-   - Midjourney (https://midjourney.com) - Meilleure qualité
-   - DALL-E 3 via ChatGPT Plus
-   - Leonardo.ai avec preset PhotoReal
-   - Stable Diffusion XL
+IMAGES ACTIVES:
+✓ hero.png                   - Fond cosmos mystique avec symboles astrologiques
+✓ header-astrology.png       - Décoration astrologique du header
+✓ client-1.png à client-10.png - 10 avatars photoréalistes pour témoignages
+✓ service-*.png              - 4 illustrations services (disponibles, emojis utilisés)
 
-4. Une fois les images générées, les renommer exactement comme suit:
-   ✓ hero.jpg (1920x1080px minimum)
-   ✓ amayon.jpg (800x800px)
-   ✓ symbols-love-money-protection.jpg (1200x800px)
-   ✓ client-1.jpg à client-10.jpg (400x400px chacun)
+Le fichier assets/prompts.txt contient les prompts utilisés pour la génération.
 
-5. Remplacer les fichiers dans le dossier assets/
-6. Redéployer le site
-
-ASTUCE: Compresser les images avant de les uploader pour améliorer les 
-performances du site. Utiliser TinyPNG.com ou Squoosh.app
+OPTIMISATIONS POSSIBLES:
+- Compresser les images PNG pour améliorer les performances (TinyPNG.com)
+- Ajouter lazy loading pour les images des témoignages
+- Remplacer les emojis services par les images PNG photoréalistes si souhaité
 
 ═══════════════════════════════════════════════════════════════════════════════
 

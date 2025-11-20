@@ -15,12 +15,12 @@ Site web statique et responsive pour le médium européen Médium Amayon, optimi
 ├── index.html              # Page unique complète avec toutes les sections
 ├── styles.css              # Styles CSS avec palette personnalisée
 ├── script.js               # JavaScript pour interactions et tracking
-├── assets/                 # Dossier des ressources
-│   ├── prompts.txt         # Prompts détaillés pour génération d'images 4K
-│   ├── hero.jpg            # Image de fond hero (PLACEHOLDER)
-│   ├── amayon.jpg          # Portrait Médium Amayon (PLACEHOLDER)
-│   ├── symbols-love-money-protection.jpg (PLACEHOLDER)
-│   └── client-1.jpg à client-10.jpg (PLACEHOLDERS)
+├── assets/                 # Dossier des ressources (images AI générées)
+│   ├── prompts.txt         # Prompts utilisés pour génération d'images
+│   ├── hero.png            # Image cosmos mystique (fond hero) ✓ INTÉGRÉE
+│   ├── header-astrology.png # Image symboles astrologiques ✓ INTÉGRÉE
+│   ├── client-1.png à client-10.png # 10 avatars clients ✓ INTÉGRÉS
+│   └── service-*.png       # 4 illustrations services (disponibles)
 ├── README.txt              # Instructions de déploiement complètes
 └── .gitignore              # Fichiers à ignorer
 ```
@@ -80,16 +80,20 @@ Le site est 100% statique et peut être déployé gratuitement sur:
 
 Voir `README.txt` pour instructions détaillées.
 
-## Images à Remplacer
+## Images Générées
 
-⚠️ **IMPORTANT:** Les images actuelles sont des PLACEHOLDERS texte.
+✓ **STATUT:** Les images principales ont été générées avec AI (DALL-E 3).
 
-Avant mise en production:
-1. Lire `assets/prompts.txt` pour les prompts détaillés
-2. Générer les images 4K photoréalistes (Midjourney/DALL-E 3/Stable Diffusion)
-3. Remplacer tous les fichiers .jpg dans `assets/`
-4. Compresser les images (TinyPNG.com)
-5. Redéployer
+**Images actives sur le site:**
+- ✓ `hero.png` - Fond cosmos mystique avec symboles astrologiques (section hero)
+- ✓ `header-astrology.png` - Décoration astrologique (header droite)
+- ✓ `client-1.png` à `client-10.png` - 10 avatars photoréalistes pour témoignages
+- ✓ `service-*.png` - 4 illustrations services (disponibles mais emojis utilisés)
+
+**Prochaines améliorations possibles:**
+- Remplacer les emojis services par les images PNG photoréalistes
+- Compresser les images PNG pour optimiser les performances (TinyPNG.com)
+- Ajouter lazy loading pour les images des témoignages
 
 ## Workflow de Développement
 
