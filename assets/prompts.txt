@@ -1,0 +1,184 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                   PROMPTS POUR GÉNÉRATION D'IMAGES PHOTORÉALISTES             ║
+║                        Site Web Grand Maître Amayon                           ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+INSTRUCTIONS GÉNÉRALES:
+- Toutes les images doivent être photoréalistes, ultra-détaillées, en qualité 4K
+- Style européen, éclairage naturel et chaleureux
+- Éviter les clichés caricaturaux, privilégier l'authenticité et la crédibilité
+- Les portraits doivent inspirer confiance, bienveillance et sérénité
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 FICHIER: hero.jpg
+🎯 USAGE: Image de fond de la section Hero (première section du site)
+📐 DIMENSIONS RECOMMANDÉES: 1920x1080px (16:9) minimum
+
+PROMPT:
+"Realistic portrait of a wise spiritual master meditating in a warm European 
+interior, subtle mystical symbols, soft backlight, photorealistic, ultra-detailed, 
+4K. Warm ambient lighting with candles, wooden furniture, serene atmosphere, 
+peaceful expression, eyes closed in meditation. European ethnicity, middle-aged 
+man with calm features. Blurred background with bokeh effect. Professional 
+photography, cinematic lighting, high-end digital camera quality."
+
+ALTERNATIVES:
+- "European spiritual medium in peaceful meditation room, warm golden hour light 
+  streaming through windows, subtle spiritual symbols, photorealistic 4K"
+- "Serene meditation scene with wise European master, ambient candlelight, wooden 
+  interior, mystical yet approachable atmosphere, ultra-realistic photography"
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 FICHIER: amayon.jpg
+🎯 USAGE: Portrait du Maître Amayon pour la section "À Propos"
+📐 DIMENSIONS RECOMMANDÉES: 800x800px (1:1) carré
+
+PROMPT:
+"Close-up realistic portrait of a calm, trustworthy middle-aged man, gentle eyes, 
+warm lighting, European style, photorealistic, 4K. Soft natural light, kind 
+expression, approachable demeanor. Professional headshot photography, shallow 
+depth of field, blurred warm background. The subject exudes wisdom, compassion, 
+and confidence. Age 45-55, well-groomed appearance, wearing neutral tones. 
+Studio quality lighting, high resolution, professional photography."
+
+ALTERNATIVES:
+- "Professional portrait of European spiritual advisor, warm gentle smile, 
+  compassionate eyes, natural lighting, photorealistic quality, studio photography"
+- "Trustworthy middle-aged European man portrait, serene expression, soft lighting, 
+  professional headshot, ultra-realistic, 4K quality"
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 FICHIER: symbols-love-money-protection.jpg
+🎯 USAGE: Image illustrative pour la section Services
+📐 DIMENSIONS RECOMMANDÉES: 1200x800px (3:2)
+
+PROMPT:
+"Elegant photorealistic composition of subtle symbols: heart, gold coins, soft 
+protective light, refined and realistic, 4K. Still life photography with warm 
+lighting. Red rose petals forming a heart shape, antique gold coins scattered 
+artfully, soft glowing candle creating protective aura. Wooden table surface, 
+shallow depth of field, bokeh background. Professional product photography, 
+cinematic lighting, ultra-detailed textures. No people, just symbolic objects 
+arranged tastefully."
+
+ALTERNATIVES:
+- "Artistic still life: delicate heart symbol, golden coins, protective candle 
+  light, mystical yet elegant, photorealistic 4K photography"
+- "Refined composition of love, prosperity, and protection symbols, warm ambient 
+  lighting, professional photography, ultra-realistic textures"
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 FICHIERS: client-1.jpg, client-2.jpg, client-3.jpg, etc. (10 photos clients)
+🎯 USAGE: Avatars des témoignages clients
+📐 DIMENSIONS RECOMMANDÉES: 400x400px (1:1) carré pour chaque
+
+INSTRUCTIONS SPÉCIFIQUES:
+- Varier les genres (hommes/femmes), âges (25-60 ans), et apparences
+- Expressions soulagées, heureuses, sereines
+- Portraits naturels en extérieur ou intérieur lumineux
+- Diversité européenne (français, belges, suisses)
+- Éviter les photos trop posées ou professionnelles (préférer naturel/authentique)
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-1.JPG (Sophie, Bruxelles - Femme, 30 ans):
+"Photorealistic portrait of a young woman smiling with relief after a consultation, 
+natural lighting, 4K. Age 30, European features, gentle smile expressing relief 
+and happiness. Soft outdoor lighting, blurred natural background. Casual attire, 
+approachable appearance. Professional portrait photography, natural expression, 
+authentic emotion. Warm color tones, high resolution."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-2.JPG (Marc, Paris - Homme, 42 ans):
+"Photorealistic portrait of a middle-aged man smiling with confidence, natural 
+lighting, 4K. Age 40-45, European features, genuine relieved smile. Professional 
+casual attire, outdoor natural light. Expressing gratitude and renewed hope. 
+Authentic portrait photography, warm tones, sharp focus, blurred background."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-3.JPG (Amélie, Genève - Femme, 35 ans):
+"Photorealistic portrait of a woman in her mid-30s with peaceful serene expression, 
+natural lighting, 4K. Relieved smile, calm demeanor, European features. Soft 
+natural light, indoor or outdoor setting. Professional portrait, authentic emotion, 
+warm color palette, high detail."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-4.JPG (Thomas, Lyon - Homme, 38 ans):
+"Photorealistic portrait of a man age 38 with hopeful grateful expression, 
+natural lighting, 4K. Genuine smile, European features, casual professional 
+appearance. Natural outdoor lighting, blurred background. Authentic portrait 
+photography, warm tones, expressing relief and happiness."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-5.JPG (Nathalie, Liège - Femme, 45 ans):
+"Photorealistic portrait of a woman age 45 with calm peaceful smile, natural 
+lighting, 4K. Mature European woman, serene expression, relieved demeanor. 
+Soft natural light, indoor setting. Professional portrait photography, authentic 
+emotion, warm color palette, high resolution."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-6.JPG (Pierre, Marseille - Homme, 50 ans):
+"Photorealistic portrait of a mature man age 50 with grateful confident smile, 
+natural lighting, 4K. European features, business casual attire, expressing 
+relief and success. Natural lighting, outdoor or office setting. Professional 
+portrait, warm tones, authentic expression."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-7.JPG (Isabelle, Lausanne - Femme, 28 ans):
+"Photorealistic portrait of a young woman age 28 with joyful radiant smile, 
+natural lighting, 4K. European features, happy expression, in love demeanor. 
+Soft natural outdoor lighting, romantic warm tones. Professional portrait 
+photography, authentic happiness, high detail."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-8.JPG (David, Toulouse - Homme, 36 ans):
+"Photorealistic portrait of a man age 36 with impressed thoughtful expression, 
+natural lighting, 4K. European features, slight smile, confident yet surprised 
+demeanor. Natural lighting, professional setting. Authentic portrait photography, 
+warm color palette, high resolution."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-9.JPG (Christine, Namur - Femme, 52 ans):
+"Photorealistic portrait of a mature woman age 52 with warm grateful smile, 
+natural lighting, 4K. European features, maternal caring expression, relieved 
+demeanor. Soft natural light, home setting. Professional portrait photography, 
+authentic emotion, warm tones, high detail."
+
+─────────────────────────────────────────────────────────────────────────────
+
+CLIENT-10.JPG (Laurent, Nice - Homme, 33 ans):
+"Photorealistic portrait of a young man age 33 with happy hopeful expression, 
+natural lighting, 4K. European features, genuine relieved smile, love-struck 
+demeanor. Natural outdoor Mediterranean lighting, warm sunny tones. Professional 
+portrait, authentic emotion, high resolution."
+
+═══════════════════════════════════════════════════════════════════════════════
+
+NOTES POUR L'ÉQUIPE DE GÉNÉRATION:
+1. Utiliser des outils comme Midjourney, DALL-E 3, ou Stable Diffusion XL
+2. Privilégier la qualité photoréaliste plutôt que l'illustration
+3. Upscaler les images à minimum 4K avant intégration
+4. Vérifier que les visages inspirent confiance (pas de traits inquiétants)
+5. Conserver des tons chauds et accueillants dans tous les visuels
+6. Les images de clients doivent paraître authentiques, pas trop "stock photo"
+
+OUTILS RECOMMANDÉS:
+- Midjourney v6 ou supérieur (--style raw pour photoréalisme)
+- DALL-E 3 via ChatGPT Plus
+- Stable Diffusion XL avec modèles photoréalistes (ex: RealVisXL)
+- Leonardo.ai avec preset "PhotoReal"
+
+═══════════════════════════════════════════════════════════════════════════════
+Fin du fichier prompts.txt
