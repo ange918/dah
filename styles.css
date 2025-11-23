@@ -229,6 +229,32 @@ p {
 }
 
 /* ============================================
+   Icônes Boxicons - Styles généraux
+   ============================================ */
+.bx {
+    vertical-align: middle;
+    line-height: 1;
+}
+
+/* Icônes dans les titres et textes */
+.logo .bx,
+.faq-question .bx,
+.final-cta-guarantee .bx {
+    margin-right: 0.5rem;
+}
+
+/* Icônes dans les boutons */
+.btn .bx {
+    font-size: 1.2rem;
+}
+
+/* Icônes dans les sections features et services */
+.feature-icon .bx,
+.service-icon .bx {
+    font-size: inherit;
+}
+
+/* ============================================
    Boutons Premium - Style Doré Moderne
    ============================================ */
 .btn {
