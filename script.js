@@ -2,6 +2,46 @@
 // La voyante Francine - Script JavaScript
 // ============================================
 
+// Gestion du header rétractable au scroll
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.getElementById('main-header');
+    let lastScrollTop = 0;
+    let scrollThreshold = 100;
+    let isScrolling;
+    
+    function handleHeaderScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        // Ne pas cacher le header si on est tout en haut de la page
+        if (scrollTop <= scrollThreshold) {
+            header.classList.remove('hidden');
+            return;
+        }
+        
+        // Si on descend, cacher le header
+        if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+            header.classList.add('hidden');
+        } 
+        // Si on remonte, afficher le header
+        else if (scrollTop < lastScrollTop) {
+            header.classList.remove('hidden');
+        }
+        
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }
+    
+    // Utiliser debounce pour optimiser les performances
+    window.addEventListener('scroll', function() {
+        window.clearTimeout(isScrolling);
+        isScrolling = setTimeout(function() {
+            handleHeaderScroll();
+        }, 10);
+    }, false);
+    
+    // Vérifier au chargement
+    handleHeaderScroll();
+});
+
 // Gestion du bouton WhatsApp sticky (apparition au scroll)
 document.addEventListener('DOMContentLoaded', function() {
     const whatsappSticky = document.getElementById('whatsapp-sticky');

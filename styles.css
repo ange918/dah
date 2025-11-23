@@ -64,6 +64,7 @@ body {
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    padding-top: 65px;
 }
 
 img {
@@ -167,52 +168,60 @@ p {
 }
 
 /* ============================================
-   Header Premium - Design Centré Mystique
+   Header Premium - Design Compact Moderne
    ============================================ */
 .header {
-    background: linear-gradient(135deg, var(--color-blue-mystique) 0%, rgba(26, 42, 58, 0.95) 50%, transparent 100%);
-    padding: var(--spacing-lg) 0;
-    position: sticky;
+    background: linear-gradient(135deg, var(--color-blue-mystique) 0%, rgba(26, 42, 58, 0.95) 100%);
+    padding: 0.75rem 0;
+    position: fixed;
     top: 0;
-    z-index: 100;
-    box-shadow: var(--shadow-premium);
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.header.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
 }
 
 .header-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     gap: var(--spacing-md);
-    text-align: center;
 }
 
 .logo-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: var(--spacing-sm);
+    gap: 0.75rem;
 }
 
 .logo-image {
-    width: 80px;
-    height: 80px;
-    filter: drop-shadow(0 4px 12px rgba(212, 175, 55, 0.4));
-    animation: gentleGlow 3s ease-in-out infinite;
+    width: 45px;
+    height: 45px;
+    filter: drop-shadow(0 2px 8px rgba(212, 175, 55, 0.4));
+    transition: filter 0.3s ease;
 }
 
-@keyframes gentleGlow {
-    0%, 100% { filter: drop-shadow(0 4px 12px rgba(212, 175, 55, 0.4)); }
-    50% { filter: drop-shadow(0 6px 20px rgba(212, 175, 55, 0.6)); }
+.logo-image:hover {
+    filter: drop-shadow(0 4px 12px rgba(212, 175, 55, 0.6));
 }
 
 .logo {
     font-family: var(--font-heading);
-    font-size: 1.75rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--color-white);
     text-shadow: 0 2px 8px rgba(212, 175, 55, 0.5);
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
 }
 
 .header-astrology-img {
@@ -858,12 +867,34 @@ section {
 
 /* Mobile */
 @media (max-width: 480px) {
+    body {
+        padding-top: 60px;
+    }
+    
+    .header {
+        padding: 0.5rem 0;
+    }
+    
     .header-content {
-        justify-content: center;
+        justify-content: space-between;
+    }
+    
+    .logo-wrapper {
+        gap: 0.5rem;
+    }
+    
+    .logo-image {
+        width: 35px;
+        height: 35px;
     }
     
     .logo {
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+    
+    #header-cta {
+        padding: 8px 16px;
+        font-size: 0.85rem;
     }
     
     .btn {
