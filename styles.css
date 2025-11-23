@@ -224,7 +224,7 @@ a {
 .hero {
     position: relative;
     background: linear-gradient(135deg, var(--color-footer-navy) 0%, #1a3a6e 100%);
-    background-image: url('assets/hero.png');
+    background-image: url('assets/hero-bg-francine.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
